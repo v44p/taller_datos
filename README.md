@@ -17,7 +17,7 @@ Tópicos
 
 <ul>
     <li> Introducción a Python (sesión 1) </li>
-    <li> Numpy y Pndas (sesión 1)<li>
+    <li> Numpy y Pndas (sesión 1)</li>
     <li> Visualización con Matplotlib </li>
     <li> Topicos de machine learning </li>
     <li> texto: NLTK </li>
