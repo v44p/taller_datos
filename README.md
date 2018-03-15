@@ -15,6 +15,8 @@ Materiales
 
 </ul>
 
+En el taller se desearía que los y las asistentes utilicen alguna distribución de gnu/Linux, en caso contrario podrían cambiar nombres de algunas librerías o formas de resolver cosas técnicas
+
 Tópicos
 =======
 
@@ -28,7 +30,6 @@ Tópicos
     <li> Despliegue en Gephi </li>
 
 </ul>
-
 <p>
 La velocidad con que abordemos los tópicos y profundidad será acorde a lo que como grupo vayamos decidiendo. El taller se comenzará con python como lenguaje base pero es libre elección de los integrantes escoger sus herramientas y compartirlas con el grupo. En el caso de **R-project** sería adecuado tener instalado **Rstudio**. 
 </p>
