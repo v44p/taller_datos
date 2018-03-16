@@ -17,6 +17,58 @@ Materiales
 
 En el taller se desearía que los y las asistentes utilicen alguna distribución de gnu/Linux, en caso contrario podrían cambiar nombres de algunas librerías o formas de resolver cosas técnicas
 
+**Instalación**
+
+1. Instalar PIP
+
+`
+apt-get install python3-pip
+`
+
+2. Instalar VirtualEnv
+
+`
+pip3 install virtualenv
+`
+
+Puede que arroje el siguiente error: *"You are using pip version 8.1.1, however version 9.0.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command"* - No pasa nada
+
+3. Crear una carpeta "taller_data" con una subcarpeta "venv"
+
+4. Desde la terminal, navegar hasta la carpeta *venv* y crear el entorno virtual haciendo:
+
+`
+virtualenv .
+`
+
+Esto va a crear varias carpetas en *venv*, entre ellas la carpeta *bin*.
+
+5. Desde la terminal, navegar hasta venv y correr el entorno virtual:
+
+`
+source bin/activate
+`
+
+Esto va a agregar *(venv)* al inicio del prompt, es decir que estamos dentro del entorno virtual. Tenemos que ver lo siguiente:
+
+`
+(venv) user@home:~/taller_data/venv$
+`
+
+6. Una vez que estamos en el entorno virtual, instalamos Jupyter:
+
+`
+pip install jupyter
+`
+
+7. Ejecutamos Jupyter
+
+`
+ipython notebook
+`
+
+
 Tópicos
 =======
 
