@@ -78,8 +78,9 @@ Esto va a agregar *(venv)* al inicio del prompt, es decir que estamos dentro del
 `
 y volvemos a taller de datos
 
-`cd ..
+`venv$ cd ..
 `
+
 `(ven) user@home:~/taller_data/$
 `
 
