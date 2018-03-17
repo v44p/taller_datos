@@ -94,7 +94,7 @@ taller_data/$ pip install jupyter
 7. Ejecutamos Jupyter
 
 `
-italler_data/$ python notebook
+taller_data/$ ipython notebook
 `
 Se abrirá un explorador y pinchamos el archivo *Taller_data.ipynb* 
 
