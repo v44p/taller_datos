@@ -5,6 +5,10 @@ Taller de análisis de datos
 El taller tiene como objetivo introducir al análisis de datos con Python, revisar tópicos de machine learning, como también de redes sociales. Se propone que en el taller surjan desafíos de análisis para abordar ya sea en grupo o individualmente y documentarlos para la comunidad. 
 </p>
 
+# Importante
+
+si te quieres incorporar después del inicio es importante que lleves tu compu con las cosas que se necesitan funcionando. Puedes ir a la wiki y mirar <a href="https://github.com/vladimirAvilaProsser/taller_datos/wiki/Requisitos-e-instalaci%C3%B3n"> aquí </a>.
+
 
 Materiales
 ==========
@@ -17,85 +21,6 @@ Materiales
 
 En el taller se desearía que los y las asistentes utilicen alguna distribución de gnu/Linux, en caso contrario podrían cambiar nombres de algunas librerías o formas de resolver cosas técnicas
 
-**Instalación**
-
-1. Instalar PIP
-
-Instalaremos *virtualenv* como entorno virtual, otra opción podría ser *anaconda*, sin embargo, esta última instala todas las librerías cientificas, muchas de las cuales no se utilizaran, o dependiendo del proyecto serán unas u otras, por lo que venv  es una buena opción para mantener un entorno de trabajo limpio y pendiente de las  versiones que se están utilizando y con python3
-
-
-`
-apt-get install python3-pip
-`
-
-2. Instalar VirtualEnv
-
-`
-pip3 install virtualenv
-`
-
-Puede que arroje el siguiente error: *"You are using pip version 8.1.1, however version 9.0.1 is available.
-You should consider upgrading via the 'pip install --upgrade pip' command"* - No pasa nada
-
-3. Crear una carpeta "taller_data" con una subcarpeta "venv"
-
-4. Desde la terminal, navegar hasta la carpeta *venv* y crear el entorno virtual haciendo:
-
-`
-taller_datos/venv$ virtualenv .
-`
-
-Esto va a crear varias carpetas en *venv*, entre ellas la carpeta *bin*, quedando una estructura como esta.
-
-
-```
-/taller_datos
-    |-- README.md
-    |-- Taller_data.ipynb    
-    |__ /venv
-        |__ /bin
-            |-- activate
-            |__ /include
-            |__ /...
-    | __ /data    
-                    
-```
-
-
-
-5. Desde la terminal, navegar hasta venv y correr el entorno virtual:
-
-
-
-`
-venv$ source bin/activate
-`
-
-Esto va a agregar *(venv)* al inicio del prompt, es decir que estamos dentro del entorno virtual. Tenemos que ver lo siguiente:
-
-`
-(venv) user@home:~/taller_data/venv$
-`
-y volvemos a taller de datos
-
-`cd ..
-`
-`(ven) user@home:~/taller_data/$
-`
-
-
-6. Una vez que estamos en el entorno virtual, instalamos Jupyter:
-
-`
-taller_data/$ pip install jupyter
-`
-
-7. Ejecutamos Jupyter
-
-`
-italler_data/$ python notebook
-`
-Se abrirá un explorador y pinchamos el archivo *Taller_data.ipynb* 
 
 
 Tópicos
@@ -103,7 +28,7 @@ Tópicos
 
 <ul>
     <li> Introducción a Python (sesión 1) </li>
-    <li> Numpy y Pndas (sesión 1)</li>
+    <li> Numpy y Pndas </li>
     <li> Visualización con Matplotlib </li>
     <li> Topicos de machine learning </li>
     <li> texto: NLTK </li>
